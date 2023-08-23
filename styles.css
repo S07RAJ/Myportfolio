@@ -1,0 +1,167 @@
+/* Reset and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image/bg1.jpg");
+    /* Make sure to provide the correct path to your image */
+    background-size: cover;
+    /* Adjust the background image size to cover the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
+    background-attachment: fixed;
+    /* Keep the background image fixed when scrolling */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #555;
+    /* Change to the desired hover color */
+    border-radius: 4px;
+    /* Add some rounded corners for a button-like effect */
+}
+
+/* Background animation on hover for sections */
+section {
+    padding: 2rem;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+section:hover {
+    background-color: #181717;
+    /* Change to the desired hover background color */
+}
+
+.h2 {
+    color: #fff;
+}
+
+/* Additional styles for attractive paragraph text */
+.attractive-text {
+    font-size: 18px;
+    /* Increase font size */
+    color: black;
+    /* Change text color to black */
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    /* Apply a different font style */
+    line-height: 1.6;
+    /* Adjust line height for readability */
+    margin-top: 10px;
+    /* Add some spacing at the top */
+}
+
+/* Footer styles */
+.education-footer {
+    background-color: black;
+    /* Black background */
+    color: white;
+    /* White text color */
+    text-align: center;
+    padding: 10px;
+}
+
+.school-link a {
+    color: rgb(97, 64, 245);
+    text-shadow: 2px 2px #f5f0f0
+    /* White text color for the link */
+    text-decoration: none;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    /* Change background color to black */
+    color: white;
+    /* Change text color to white */
+    opacity: 0.8;
+    /* Adjust opacity for a semi-transparent effect */
+}
+
+/* Hover styles for better user interaction */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #333;
+    /* Darken the background color on hover */
+    opacity: 1;
+    /* Increase opacity on hover */
+}
+
+/* Active styles for the active slide */
+.carousel-control-prev[aria-disabled="false"],
+.carousel-control-next[aria-disabled="false"] {
+    background-color: #444;
+    /* Darker background for active buttons */
+}
+
+/* Icon color for the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white;
+    /* Change the color of the carousel icons */
+}
+
+      /* Center the carousel content */
+      #projectsCarousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Decrease the height to your preference */
+    }
+
+    /* Increase the width of the card */
+    .carousel-item .card {
+        width: 70%; /* Increase the width as needed */
+        margin: auto; /* Center the card horizontally */
+    }
+
+    /* Increase the width of the card image */
+    .carousel-item .card-img-top {
+        width: 100%; /* Set the width to 100% to fill the card */
+        height: 300px;
+    
+    }
+    .attractive-text {
+
+        position: absolute;
+        left: 0px;
+        width: 720px;
+ 
+     
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to control transparency */
+        color: white; /* Text color */
+        padding: 10px; /* Add some padding to create a spacing around the text */
+        border-radius: 10px; /* Add rounded corners to the card */
+    
+        }
+
+    .profile-picture{
+        position: absolute;
+        right: 100px;
+    }
